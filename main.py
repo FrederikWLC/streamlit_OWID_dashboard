@@ -166,7 +166,7 @@ with page_container:
         st.title("While the Western parts of Europe have had more total emissions, the Eastern countries emit more than twice as much per unit of GDP")
 
 
-        col_block, col_map, col_sub,  = st.columns([1, 1.28, 1])
+        col_block, col_map, col_sub,  = st.columns([1, 1, 1])
 
 
         with col_block:
@@ -225,7 +225,7 @@ with page_container:
 
         st.title("Heavy reliance on coal in the East is a major factor behind their higher CO₂ emissions per unit of GDP compared to the West")
 
-        col_block, col_map, col_sub = st.columns([1, 1.28, 0.9])
+        col_block, col_map, col_sub = st.columns([1, 1, 1])
 
         with col_block:
             st.plotly_chart(industry_share_block_figure(df_OWID_europe))
