@@ -1,0 +1,1 @@
+from icons.flag_svg import flag_svg

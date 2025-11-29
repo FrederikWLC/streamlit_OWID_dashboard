@@ -1,0 +1,5 @@
+from plots.emission_rate import emission_rate_figure
+from plots.emission_rate_barplot import emission_rate_block_barplot_figure, emission_rate_subregion_barplot_figure
+from plots.industry_barplots import industry_share_block_figure, industry_share_subregion_barplot_figure
+from plots.industry import industry_share_map_figure
+from plots.subregions import subregions_figure
