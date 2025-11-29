@@ -166,7 +166,7 @@ with page_container:
         st.title("While the Western parts of Europe have had more total emissions, the Eastern countries emit more than twice as much per unit of GDP")
 
 
-        col_block, col_map, col_sub,  = st.columns([1, 1, 1])
+        col_block, col_map, col_sub,  = st.columns([1, 1.2, 1])
 
 
         with col_block:
@@ -240,7 +240,7 @@ with page_container:
         with col_sub:
             st.pyplot(industry_share_subregion_barplot_figure(df_OWID_europe))
         
-        st.markdown("""<p style="font-size:27px;">Coal emits about 2-3 times as much CO₂ per euro produced compared to natural gas or oil. Central European countries in particular continue to depend heavily on coal for both power and industry, which makes their economies especially carbon intensive. In the East, Russia and other countries in its subregion rely more on natural gas, yet still emit far more CO₂ per euro produced than the West. Western countries have generally transitioned earlier toward cleaner energy sources and more service-based economies. As a result, Central Europe stands out as the region where coal dependence drives the strongest mismatch between economic output and emissions.</p>""", unsafe_allow_html=True)
+        st.markdown("""<p style="font-size:22px;">Coal emits about 2-3 times as much CO₂ per euro produced compared to natural gas or oil. Central European countries in particular continue to depend heavily on coal for both power and industry, which makes their economies especially carbon intensive. In the East, Russia and other countries in its subregion rely more on natural gas, yet still emit far more CO₂ per euro produced than the West. Western countries have generally transitioned earlier toward cleaner energy sources and more service-based economies. As a result, Central Europe stands out as the region where coal dependence drives the strongest mismatch between economic output and emissions.</p>""", unsafe_allow_html=True)
 
 
 # PAGE 3 — SO WHAT?
@@ -251,6 +251,6 @@ with page_container:
         with col2:
             st.title("Accelerating The Central and Eastern European Energy Transition")
             st.markdown("""
-                <div style='font-size:27px; line-height:1.55;'>
+                <div style='font-size:22px; line-height:1.55;'>
                 Western European industries and policymakers can play a constructive role in supporting Central Europe and the broader East in reducing coal dependence and lowering carbon intensity. Many Central European economies still rely on older coal-based infrastructure, making their production especially emission-heavy, while Russia and its neighboring Eastern subregion remain centered on natural gas. Through targeted collaboration — such as modernizing power systems, expanding grid interconnections, and helping industry adopt cleaner technologies — Western partners can help unlock more efficient and lower-carbon growth. The objective is not to replace domestic capabilities, but to build on them, enabling these regions to generate the same economic value with far fewer emissions, strengthening energy security and sustainability across all of Europe. </div>
             """, unsafe_allow_html=True)
