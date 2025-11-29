@@ -166,7 +166,7 @@ with page_container:
         st.title("While the Western parts of Europe have had more total emissions, the Eastern countries emit more than twice as much per unit of GDP")
 
 
-        col_block, col_map, col_sub,  = st.columns([1, 1.3, 1])
+        col_block, col_map, col_sub,  = st.columns([1, 1.2, 1])
 
 
         with col_block:

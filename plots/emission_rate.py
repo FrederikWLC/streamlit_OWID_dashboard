@@ -51,7 +51,7 @@ def emission_rate_figure(df):
         legend=dict(
             orientation="h",
             x=0.1,
-            y=0.92,                
+            y=0.87,                
             xanchor="left",
             yanchor="bottom",
             bgcolor="rgba(0,0,0,0)",
@@ -72,7 +72,7 @@ def emission_rate_figure(df):
 
         annotations=[dict(
             x=0.1,
-            y=0.94,                     
+            y=0.90,                     
             xref="paper",
             yref="paper",
             text="Bubble size = Total emissions",
